@@ -1,0 +1,16 @@
+target 'STodo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MakeItSo
+  pod 'Resolver'
+
+  pod 'Disk', '~> 0.6.4'
+  
+  pod 'Firebase/Auth'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Firestore'
+  pod 'FirebaseFirestoreSwift', '~> 7.1.0-beta'
+  
+  pod 'Firebase/Functions'
+end
